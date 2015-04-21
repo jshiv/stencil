@@ -1,0 +1,16 @@
+MANIFEST.in
+RELEASE-VERSION
+setup.cfg
+setup.py
+version.py
+stencil/__init__.py
+stencil/template.py
+stencil.egg-info/PKG-INFO
+stencil.egg-info/SOURCES.txt
+stencil.egg-info/dependency_links.txt
+stencil.egg-info/requires.txt
+stencil.egg-info/top_level.txt
+stencil/submodule/__init__.py
+stencil/submodule/example.py
+stencil/tests/__init__.py
+stencil/tests/template_tests.py
