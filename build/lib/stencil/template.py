@@ -20,7 +20,6 @@ import os  # standard library imports first
 # Import the module using
 
 
-
 import numpy
 import random
 #
@@ -32,15 +31,9 @@ import random
 # convention used by NumPy itself::
 
 
-
-
-
-
-
 # These abbreviated names are not to be used in docstrings; users must
 # be able to paste and execute docstrings after importing only the
 # numpy module itself, unabbreviated.
-
 
 
 def foo(var1, var2, long_var_name='hi'):
@@ -127,13 +120,15 @@ def foo(var1, var2, long_var_name='hi'):
     """
 
     pass
-    
-#python functions are very flexable
-def simple_function(x, y = 3, letter = 'b', tf = True, none = None, *args, **kwargs):
+
+# python functions are very flexable
+
+
+def simple_function(x, y=3, letter='b', tf=True, none=None, *args, **kwargs):
     '''also comments are cool! try tabbing in ipyhton to see
     what a comment in a function says'''
     print 'x = ' + str(x)
-    print 'x*y = ' + str(x*y)
+    print 'x*y = ' + str(x * y)
     print 'the letter is: ' + letter
     if tf:
         print 'the boolean variable is True :-)'
@@ -141,27 +136,30 @@ def simple_function(x, y = 3, letter = 'b', tf = True, none = None, *args, **kwa
         print 'the boolean variable is was not True :-('
     if none is not None:
         print 'none is not None'
-        print 'none is : '+str(none)
+        print 'none is : ' + str(none)
     print "also...."
     print args
     print kwargs
-    return x*y
+    return x * y
 
-#classes are also easy to build
-class die:
+# classes are also easy to build
+
+
+class Die:
     #     first every class needs an __init__ method
     #     __init__ gets run automatically when you instantiate an object
-    def __init__(self, sides = 6):
+
+    def __init__(self, sides=6):
         '''die represents a single die with the property of sides and the methods of roll and rolln'''
         self.sides = sides
-        
+
     def roll(self):
-        self.rolled = random.randint(1,self.sides)
-        print self.rolled
-    def rolln(self, n = 10):
-        self.rolled = [random.randint(1,self.sides) for x in range(n)]
+        self.rolled = random.randint(1, self.sides)
         print self.rolled
 
+    def rolln(self, n=10):
+        self.rolled = [random.randint(1, self.sides) for x in range(n)]
+        print self.rolled
 
 
 class GeneralClass:
@@ -194,16 +192,16 @@ class GeneralClass:
         result = methodToCall()
 
 if __name__ == '__main__':
-    z = simple_function(x = 1, none = 15)
-    #instantiate the object 'myDie', overriding the default #sides
-    myDie = die(24)
+    z = simple_function(x=1, none=15)
+    # instantiate the object 'myDie', overriding the default #sides
+    my_die = Die(24)
 
-    #run the 'roll' function under the object which rolls and prints result
-    myDie.roll()
-    #run the 'rolln' function under the object which rolls n times and prints results
-    myDie.rolln(5)
+    # run the 'roll' function under the object which rolls and prints result
+    my_die.roll()
+    # run the 'rolln' function under the object which rolls n times and prints
+    # results
+    my_die.rolln(5)
 
-    #make a general object
-    obj = general(param1 = 1, x = 1, z = 3, milkBone = 'MMMM thats good stuff')
+    # make a general object
+    obj = GeneralClass(param1=1, x=1, z=3, milkBone='MMMM thats good stuff')
     print obj.argList
-
