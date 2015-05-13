@@ -1,9 +1,9 @@
 MANIFEST.in
-RELEASE-VERSION
 setup.cfg
 setup.py
-version.py
+versioneer.py
 stencil/__init__.py
+stencil/_version.py
 stencil/template.py
 stencil.egg-info/PKG-INFO
 stencil.egg-info/SOURCES.txt

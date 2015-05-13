@@ -22,7 +22,8 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from version import *
+
+import versioneer
 import sys
 
 
@@ -32,7 +33,8 @@ config = {
     'url': 'here',
     'download_url': 'Where to download it.',
     'author_email': 'jshiv00@gmail.com',
-    'version': get_git_version(),
+    'version': versioneer.get_version(),
+    'cmdclass': versioneer.get_cmdclass(),
     
     'install_requires': [
     'numpy',

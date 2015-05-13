@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: stencil
-Version: 0.1.0.dev0
+Version: 0.1.0+2.gc71fb40.dirtydev
 Summary: Stencil is a simple example python package
 Home-page: here
 Author: Jason Shiverick
