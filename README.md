@@ -12,3 +12,10 @@ Links
 [Versioning](docs/md/versioning.md)
 
 [Documentation](docs/md/documentation.md)
+
+
+Temporary Links
+---------------
+[CI](http://bids.github.io/2015-06-04-berkeley/testing/08-ci.html)
+
+[Testing](http://bids.github.io/2015-06-04-berkeley/testing/)
