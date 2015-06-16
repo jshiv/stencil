@@ -25,4 +25,5 @@ Setup
 -----
 
 [Bash](https://github.com/barryclark/bashstrap)
+
 [Environment](https://github.com/jshiv/stencil/blob/master/scripts/setup_env.sh)
