@@ -1,10 +1,10 @@
 http://static.dominoup.com/python-domino.tar.gz
 
 
-#numpy
-#scipy
+numpy
+scipy
 matplotlib
-#pandas
+pandas
 scikit-learn
 
 seaborn
@@ -19,5 +19,3 @@ pymysql
 pymssql
 pg8000
 pymongo
-
--e git+http://stash.teslamotors.com:7990/scm/rel/relpy.git@master#egg=relpy
