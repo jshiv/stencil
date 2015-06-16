@@ -17,3 +17,12 @@ pip install from stash:
 python install from setup.py
 
 	sudo python setup.py install
+
+
+### Environment Setup
+
+```sh
+curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup_env.sh -o setup_env.sh
+sh setup_env.sh
+```
+

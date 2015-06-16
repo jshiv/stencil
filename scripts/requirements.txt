@@ -20,4 +20,3 @@ pymssql
 pg8000
 pymongo
 
--e git+http://stash.teslamotors.com:7990/scm/rel/relpy.git@master#egg=relpy
