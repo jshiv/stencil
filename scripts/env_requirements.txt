@@ -1,11 +1,11 @@
 http://static.dominoup.com/python-domino.tar.gz
 
 
-numpy
-scipy
-matplotlib
-pandas
-scikit-learn
+#numpy
+#scipy
+#matplotlib
+#pandas
+#scikit-learn
 
 seaborn
 ggplot
