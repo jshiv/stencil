@@ -19,7 +19,3 @@ pymysql
 pymssql
 pg8000
 pymongo
-<<<<<<< HEAD:scripts/requirements.txt
-
-=======
->>>>>>> 4f61f8035a688dcb8da92e8f79beb6dd151b69ac:scripts/env_requirements.txt
