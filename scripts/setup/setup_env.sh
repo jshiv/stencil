@@ -12,5 +12,5 @@ brew install freetds
 
 curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup/requirements.txt -o requirements.txt
 #install numpy, scipy, pandas, sklearn, seaborn
-sudo pip install -r env_requirements.txt
+sudo pip install -r requirements.txt
 
