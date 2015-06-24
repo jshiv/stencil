@@ -22,7 +22,15 @@ python install from setup.py
 ### Environment Setup
 
 ```sh
-curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup_env.sh -o setup_env.sh
+curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup/setup_env.sh -o setup_env.sh
 sh setup_env.sh
 ```
+
+### run fresh setup
+
+```sh
+curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup/run_setup.sh -o run_setup.sh
+sh run_setup.sh
+```
+
 
