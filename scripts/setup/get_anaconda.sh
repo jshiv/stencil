@@ -10,3 +10,6 @@ conda install scipy
 conda install pandas
 conda install matplotlib
 conda install scikit-learn
+
+conda install pip
+conda install ipython-notebook
