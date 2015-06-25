@@ -1,4 +1,4 @@
-pip install -e http://static.dominoup.com/python-domino.tar.gz
+pip install http://static.dominoup.com/python-domino.tar.gz
 
 
  
