@@ -1,6 +1,8 @@
 #https://github.com/barryclark/bashstrap
 echo "updating bash"
 
+#make sublime text work
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 
 mv ~/.bash_profile ~/.bash_profile_backup
 #get the .bash_profile

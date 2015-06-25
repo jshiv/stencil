@@ -1,4 +1,5 @@
-Install anaconda
+#Install anaconda
+rm -rf /Users/$USER/miniconda
 curl -O https://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh
 sh Miniconda-latest-MacOSX-x86_64.sh
 rm Miniconda-latest-MacOSX-x86_64.sh
