@@ -4,7 +4,7 @@ echo "updating bash"
 
 mv ~/.bash_profile ~/.bash_profile_backup
 #get the .bash_profile
-curl -k https://gist.githubusercontent.com/jshiv/41cc660b317abaf7a82b/raw/8e681877bc7ab7c49b644cfe77cfc49d5b1730f3/.bash_profile -o ~/.bash_profile
+curl -k https://gist.githubusercontent.com/jshiv/41cc660b317abaf7a82b/raw/4d06db79857e76c82b7c32a3f27ff4e6ccca58f3/.bash_profile -o ~/.bash_profile
 
 #get the z script
 curl -k https://raw.githubusercontent.com/rupa/z/master/z.sh -o ~/z.sh
