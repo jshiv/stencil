@@ -9,6 +9,8 @@ brew install gcc
 brew install freetds
 
 
+python get-pip.py
+conda install pip
 
 curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup/requirements.txt -o requirements.txt
 #install numpy, scipy, pandas, sklearn, seaborn

@@ -19,3 +19,5 @@ rm setup_env.sh
 curl -k https://raw.githubusercontent.com/jshiv/stencil/master/scripts/setup/get_htop.sh -o get_htop.sh
 sh get_htop.sh
 rm get_htop.sh
+
+git clone https://github.com/jshiv/root.git
