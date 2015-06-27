@@ -19,7 +19,7 @@ import sys
 
 
 config = {
-    'description': 'Stencil is a simple example python package',
+    'description': 'stencil is a simple example python package',
     'author': 'Jason Shiverick',
     'url': 'here',
     'download_url': 'Where to download it.',
