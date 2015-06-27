@@ -4,4 +4,4 @@
 repo_name=${PWD##*/} 
 echo "Changing folders and files from 'stencil' to '$repo_name'" 
 mv ./stencil ./$repo_name
-find . -type f -name "*.py" -exec sed -i -e 's/stencil/$repo_name/g' {} +
+find . -type f -name "*.py" -exec sed -i -e 's/stencil/${repo_name}/g' {} +
