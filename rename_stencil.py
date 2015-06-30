@@ -22,6 +22,7 @@ def replace_text_in_files(files, old, new ):
         print 'Renamed: '+f
         with open (f, "r+") as myfile:
             data = myfile.read().replace(old, new)
+            myfile.truncate()
             myfile.seek(0)
             myfile.write(data)
             
