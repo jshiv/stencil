@@ -18,6 +18,8 @@ Temporary Links
 ---------------
 [CI](http://bids.github.io/2015-06-04-berkeley/testing/08-ci.html)
 
+[TOX](https://tox.readthedocs.org/en/latest/)
+
 [Testing](http://bids.github.io/2015-06-04-berkeley/testing/)
 
 
