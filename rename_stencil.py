@@ -3,8 +3,8 @@
 
 # In[1]:
 
-'''Use this script to scan your current path and 
-all sub folders to change all instances of the 
+'''Use this script to scan your current path and
+all sub folders to change all instances of the
 word stencil to the name of the top level folder'''
 
 
@@ -27,7 +27,7 @@ def replace_text_in_files(files, old, new ):
 	with open(f, "w") as myfile:
             myfile.seek(0)
             myfile.write(data)
-            
+
 def Walk(root='.', recurse=True, pattern='*'):
     """
         Generator for walking a directory tree.
@@ -91,17 +91,17 @@ def scan_path(root='.', recurse=False, pattern='*'):
 
 def main():
     old = 'stencil'
-    new = os.path.realpath(os.path.curdir+os.path.sep).split('/')[-1]
+    new = os.path.realpath(os.path.curdir+os.path.sep).split(os.sep)[-1]
     
     files = scan_path(root = os.path.curdir+os.path.sep, recurse=True, pattern = '*.py')
     replace_text_in_files(files, old, new)
-    
+
     files = scan_path(root = os.path.curdir+os.path.sep, recurse=True, pattern = '*.in')
     replace_text_in_files(files, old, new)
-    
+
     files = scan_path(root = os.path.curdir+os.path.sep, recurse=True, pattern = '*.cfg')
     replace_text_in_files(files, old, new)
-    
+
 
     files = scan_path(root = os.path.curdir+os.path.sep, recurse=True, pattern = '*.md')
     replace_text_in_files(files, old, new)
@@ -114,4 +114,3 @@ def main():
 
 if __name__=='__main__':
     main()
-
