@@ -6,7 +6,7 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 
 mv ~/.bash_profile ~/.bash_profile_backup
 #get the .bash_profile
-curl -k https://gist.githubusercontent.com/anmolgarg/9eccfe9ff975e22149fe/raw/1c7dd292238e3b90cbe887ce78fb8c17e547258d/bash_profile -o ~/.bash_profile
+curl -k https://gist.githubusercontent.com/anmolgarg/9eccfe9ff975e22149fe/raw/.bash_profile -o ~/.bash_profile
 
 #get the z script
 curl -k https://raw.githubusercontent.com/rupa/z/master/z.sh -o ~/z.sh
