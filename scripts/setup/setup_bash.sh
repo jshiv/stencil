@@ -11,31 +11,7 @@ curl -k https://gist.githubusercontent.com/anmolgarg/9eccfe9ff975e22149fe/raw/.b
 #get the z script
 curl -k https://raw.githubusercontent.com/rupa/z/master/z.sh -o ~/z.sh
 
-
-
  
-check_if_line_exists()
-{
-    # grep wont care if one or both files dont exist.
-    grep -qsFx "$LINE_TO_ADD" ~/.profile ~/.bash_profile
-}
- 
-add_line_to_profile()
-{
-    profile=~/.profile
-    [ -w "$profile" ] || profile=~/.bash_profile
-    printf "%s\n" "$LINE_TO_ADD" >> "$profile"
-}
- 
-
-
-
-
-echo "Please enter your desired default startup directory: Example ~/Documents"
-read LOC
-LINE_TO_ADD="cd $LOC"
-check_if_line_exists || add_line_to_profile
-
 
 
 source ~/.bash_profile
